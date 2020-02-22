@@ -1,0 +1,17 @@
+{
+  "name": "custom-toolkit-test-forsen",
+  "version": "5.2.3",
+  "description": "An awesome custom global module",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dosomethingawesome": "./bin/demo-global.js",
+    "dosomethingawesome2": "./bin/demo-global2.js"
+  },
+  "preferGlobal": true,
+  "author": "ourcodeworldTEST",
+  "license": "MIT",
+  "dependencies": {}
+}
