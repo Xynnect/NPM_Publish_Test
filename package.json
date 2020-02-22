@@ -4,7 +4,7 @@
   "description": "An awesome custom global module",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "mocha"
   },
   "bin": {
     "dosomethingawesome": "./bin/demo-global.js",
@@ -14,5 +14,9 @@
   "author": "ourcodeworldTEST",
   "license": "MIT",
   "dependencies": {
+    "sum": "^0.1.4"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1"
   }
 }
