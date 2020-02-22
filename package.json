@@ -4,7 +4,7 @@
   "description": "An awesome custom global module",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test.js"
   },
   "bin": {
     "dosomethingawesome": "./bin/demo-global.js",
@@ -13,5 +13,6 @@
   "preferGlobal": true,
   "author": "ourcodeworldTEST",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+  }
 }
